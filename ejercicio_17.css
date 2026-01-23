@@ -4,15 +4,14 @@ body{
     justify-content: center;
 }
 table{
-    width: 50%;
-    height: 50%;
-    margin-left: 500px;
+    width: 1000px;      
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
     background-color: rgb(230, 226, 223);
     border-collapse: collapse;
     text-align: center;
-    
-
 }
 .titulo{
     background-color: rgb(34, 33, 33);
@@ -20,7 +19,7 @@ table{
     color: aliceblue;
     align-content: center;
     text-align: center;
-    width: 110%;
+    width: auto;
     height: 15%;
     margin-top: -15px;
     margin-left: -70px;
@@ -45,7 +44,7 @@ table{
     display: flex;
 }
 .margen{
-    margin-left: 800px;
+    margin-left: 750px;
     margin-top:50px;
     margin-bottom: -20px;
 }

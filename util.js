@@ -3,6 +3,13 @@ let AUTOR_INDEX = 1;
 let YEAR_INDEX = 2;
 let PRICE_INDEX = 3;
 
+// Source - https://stackoverflow.com/a
+// Posted by Etienne Martin, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-01-23, License - CC BY-SA 4.0
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+
+
 function getXmlData(fn, func)
 {
     var req = new XMLHttpRequest();
@@ -18,7 +25,7 @@ function getXmlData(fn, func)
 
 function getData()
 {
-    getXmlData("libros.xml", (_xDoc) =>
+    getXmlData("libros.xml", async (_xDoc) =>
     {
         /**
          * @type Document
@@ -55,6 +62,8 @@ function getData()
             entry.appendChild(pData);
 
             tab.appendChild(entry);
+
+            await delay(200 * i);
         }
 
     });

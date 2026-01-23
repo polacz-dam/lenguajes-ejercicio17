@@ -27,9 +27,12 @@ function clearData()
 {
     let tab = document.querySelector("table.container");
 
-    for(let i = 0; i < tab.children.length - 1; i++)
+    while(tab.children.length > 1)
     {
-        tab.removeChild(tab.children[1]);
+        if(!tab.lastChild.classList.contains("immutable"))
+        {
+            tab.removeChild(tab.lastChild);
+        }
     }
 }
 
@@ -43,7 +46,8 @@ function getData()
         var xDoc = _xDoc;
         const libros = xDoc.getElementsByTagName("libros")[0].children;
 
-        var filterYear = parseInt(document.querySelector("#filter").value);
+        var filterYear = document.querySelector("#filter").value;
+        const isFilterEmpty = filterYear === "";
 
         clearData();
         let tab = document.querySelector("table.container");
@@ -56,7 +60,9 @@ function getData()
             const year = libro.children[YEAR_INDEX].textContent;
             const price = libro.children[PRICE_INDEX].textContent;
 
-            if(!isNaN(filterYear) && filterYear !== parseInt(year))
+            if(!isFilterEmpty &&
+                year !== filterYear
+            )
             {
                 continue;
             }

@@ -36,3 +36,7 @@ table.container tr td {
 table.container > tr > td {
     padding-left: 20px;
 }
+
+#filter-op {
+    width: 40px;
+}

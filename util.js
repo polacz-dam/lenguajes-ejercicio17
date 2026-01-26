@@ -32,6 +32,21 @@ function clearData()
     }
 }
 
+function getValueFromComparator(a, b)
+{
+    const op = document.querySelector("#filter-op").value;
+    switch(op)
+    {
+    case "==": return a == b;
+    case "!=": return a != b;
+    case ">":  return a >  b;
+    case ">=": return a >= b;
+    case "<":  return a <  b;
+    case "<=": return a <= b;
+    default: return true;
+    }
+}
+
 function getData()
 {
     getXmlData("libros.xml", async (_xDoc) =>
@@ -55,7 +70,8 @@ function getData()
             const year = libro.children[YEAR_INDEX].textContent;
             const price = libro.children[PRICE_INDEX].textContent;
 
-            if(filterYear !== "" && filterYear !== year)
+            if((filterYear !== "" && document.querySelector("#filter-op").value !== "") &&
+               !getValueFromComparator(parseInt(year), parseInt(filterYear)))
             {
                 continue;
             }

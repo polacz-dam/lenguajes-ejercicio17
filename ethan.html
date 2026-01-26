@@ -10,6 +10,15 @@
     <body>
         <label>Filter:</label>
         <input onkeyup="getData()" id="filter" type="number" placeholder="año" value="">
+        <input onchange="getData()" onkeyup="getData()" list="ops" id="filter-op" value="==" />
+        <datalist id="ops">
+            <option value="=="></option>
+            <option value="!="></option>
+            <option value=">"></option>
+            <option value=">="></option>
+            <option value="&lt;"></option>
+            <option value="&lt;="></option>
+        </datalist>
         <table class="container">
             <tr class="immutable info">
                 <td>Titulo</td>

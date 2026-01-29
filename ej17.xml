@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resultados>
+
+    <persona>
+        <posicion>1</posicion>
+        <nombre>Ana Gómez</nombre>
+        <tiempo>02:15:30</tiempo>
+    </persona>
+
+    <persona>
+        <posicion>2</posicion>
+        <nombre>Juan Pérez</nombre>
+        <tiempo>02:18:45</tiempo>
+    </persona>
+
+    <persona>
+        <posicion>3</posicion>
+        <nombre>Carlos López</nombre>
+        <tiempo>02:20:10</tiempo>
+    </persona>
+
+
+    <persona>
+        <posicion>4</posicion>
+        <nombre>María Sánchez</nombre>
+        <tiempo>02:25:05</tiempo>
+    </persona>
+
+
+    <persona>
+        <posicion>5</posicion>
+        <nombre>Pedro Martínez</nombre>
+        <tiempo>02:30:22</tiempo>
+    </persona>
+
+    <persona>
+        <posicion>6</posicion>
+        <nombre>Lucía Fernández</nombre>
+        <tiempo>02:32:50</tiempo>
+    </persona>
+
+    <persona>
+        <posicion>7</posicion>
+        <nombre>Javier Ramírez</nombre>
+        <tiempo>02:35:40</tiempo>
+    </persona>
+
+    <persona>
+        <posicion>8</posicion>
+        <nombre>Sofía Castro</nombre>
+        <tiempo>02:40:15</tiempo>
+    </persona>
+
+    <persona>
+        <posicion>9</posicion>
+        <nombre>Ricardo Torres</nombre>
+        <tiempo>02:42:30</tiempo>
+    </persona>
+
+    <persona>
+        <posicion>10</posicion>
+        <nombre>Elena Morales</nombre>
+        <tiempo>02:45:00</tiempo>
+    </persona>
+
+</resultados>

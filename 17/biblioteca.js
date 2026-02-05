@@ -1,7 +1,7 @@
 function CargarDatosEnTabla() {
     // Carga el archivo XML
     var request = new XMLHttpRequest();
-    request.open("GET", "libros.xml", false);
+    request.open("GET", "../libros.xml", false);
     request.send();
     // Comprueba que se encontró el archivo
     if (request.status === 200) {

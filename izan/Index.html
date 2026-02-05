@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="IndexCSS.css">
+    <script src="TablaBiblioteca.js"></script>
+</head>
+
+<body>
+
+    <div class="contenido">
+        <h1><b>Bienvenido a la BBDD de la biblioteca</b></h1>
+        <div class="tabla">
+
+            <table border="1">
+
+
+                    <tr class="thead">
+
+                        <td>Titulo</td>
+                        <td>Autor</td>
+                        <td>Año</td>
+                        <td>Precio</td>
+
+                    </tr>
+                    <tbody id="tableBody"></tbody>
+
+            </table>
+
+            <p>Filtro: </p>
+            <input type="text" id="filtro" onkeyup="TablaBiblioteca()" placeholder="Buscar por año">
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="coloresBiblioteca.css">
+    </head>
+
+    <body>
+        <div class="header nav">
+            <label>FIltrar por año</label><input type = "number" id = "filtro" oninput="filtrarLibro()">
+        </div>
+        <!-- Tabla vacía donde se cargarán los productos -->
+        <div class="contenedor">
+            <table style="width: 800px; height: 500; margin-top: 70px;">
+                <thead>
+                    <tr style="text-align: center; background-color: rgb(50, 122, 255); color: white;">
+                        <th>Titulo</th>
+                        <th>Autor</th>
+                        <th>Año</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="libroBody" style="background-color: ghostwhite; text-align: center;">
+                    <!-- Aquí se insertarán las filas de la tabla -->
+                </tbody>
+            </table>
+        </div>
+        <script src="biblioteca.js"> </script>
+    </body>
+
+</html>

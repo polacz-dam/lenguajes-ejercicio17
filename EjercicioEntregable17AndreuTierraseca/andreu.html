@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="estilosAndreu.css">
+</head>
+
+<body class="fondoPagSec">
+
+    <header>
+        <nav class="nav">
+            <a href="../home.html">Inicio</a>
+
+            <a href="andreu.html">Andreu</a>
+        </nav>
+    </header>
+    <input class="busqueda" id="barraBusqueda" onchange="CargarDatosEnTabla();" placeholder="Buscar...">
+    <table align="center" width="500px" cellspacing="10" cellpadding="5" class="fondoTabla">
+        <thead class="fondoCeldasSup">
+            <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Año</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="tablaLibros">
+
+        </tbody>
+    </table>
+
+    <script src="andreu.js"> </script>
+</body>
+
+</html>

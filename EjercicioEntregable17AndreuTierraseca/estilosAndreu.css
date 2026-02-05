@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+.body1 {
     background-color: #ffffff;
 }
 header {
@@ -77,4 +77,27 @@ header {
 .hero-image img {
     max-width: 320px;
     width: 100%;
+}
+
+.fondoTabla{
+    margin-left: 36%;
+    margin-top: 2%;
+    background-color: white;
+}
+.fondoCeldasSup{
+    background-color: #272626;
+    color: white;
+}
+.fondoPagSec{
+    background-color: #8c97a7;
+}
+.celda{
+    background-color: grey;
+}
+.busqueda{
+    margin-left: 36%;
+    margin-top: 2%;
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
 }

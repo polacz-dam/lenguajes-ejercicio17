@@ -1,0 +1,33 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Biblioteca IES Joan Coromines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <header>
+        <nav class="nav">
+            <a href="home.html">Inicio</a>
+            <!-- Añade aquí un enlace a tu página -->
+            <a href="mipagina.html">Daniel Beltri Santos</a>    
+        </nav>
+    </header>
+    <div class="contenedor">
+            <table border="1" class="tabla">
+                <thead class="header">
+                    <tr>
+                    <th>Titulo</th>
+                    <th>Autor</th>
+                    <th>Año</th>
+                    <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="librosBody">
+                <!-- Aquí se insertarán las filas de la tabla -->
+                </tbody>
+            </table>
+            <script src="../codigo.js"></script>
+            <input id="busqueda" onchange="CargarDatosEnTabla()">
+</html>

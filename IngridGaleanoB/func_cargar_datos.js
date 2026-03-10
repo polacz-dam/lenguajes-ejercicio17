@@ -29,7 +29,7 @@ function CargarDatosEnTabla() {
             var valor = input.value;
 
             console.log(valor)
-            if (valor == libro.getElementsByTagName("anio")[0].textContent) {
+            if (valor == libro.getElementsByTagName("anio")[0].textContent || valor == "") {
 
                 // Se crea una nueva fila en el HTML
                 var row = tableBody.insertRow();

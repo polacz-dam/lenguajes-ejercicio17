@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.borde{
+  
+     background-color: #0d6efd;
+    padding: 15px 30px;
+
+}
+.texto{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.fondo{
+    background: rgb(236, 235, 236);
+
+}
+.centro{
+    display: flex;
+    justify-content: center; 
+    
+    background: rgb(236, 235, 236);
+    width: 100%;
+    
+}
+.izquierda{
+ margin-left: 3.5%;
+     background: rgb(236, 235, 236);
+    width: 100%;
+
+}
+.cabecera{
+    
+     background-color: #0d6efd;
+    color: white;
+    
+}
+.tabla{
+    width: 90%;
+    
+background-color: white;
+margin-bottom: 30px;
+
+
+}
+.post{
+      position: fixed;
+    bottom: 20;
+    left: 0;
+    width: 100%;
+
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+    
+}
+.textogris{
+    color: #8d8d8d;
+    
+}
+table{
+    width: 100%;
+font-size: 25px;
+border-collapse: collapse;
+
+}
+tr{height: 35px;}
+.buscar{
+    margin: 30px;
+    height: 50px;
+    width: 500px;
+    border-radius: ;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}

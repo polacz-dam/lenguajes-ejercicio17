@@ -1,0 +1,24 @@
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ejercicio_17.css">
+    </head>
+    <h1 class="titulo">Biblioteca IES Joan Coromines</h1>
+    <div class="flex">
+    <input type="text" id="buscador" size="45" maxlength="100" class="margen">
+    <button onclick="CargarLibrosEnTabla()">Buscar</button>
+        <table class="sombra">
+            <thead>
+                <tr>
+                    <th class="negro">titulo</th>
+                    <th class="negro">autor</th>
+                    <th class="negro">anio</th>
+                    <th class="negro">precio</th>
+                </tr>
+            </thead>
+            <tbody id="libr">
+            </tbody>
+        </table>
+    </div>
+    <script src="ejercicio_17.js"> </script>
+</body>

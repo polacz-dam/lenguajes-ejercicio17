@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesAysha.css">
+    <title>Libros IES Joan Coromines</title>
+</head>
+
+<body class="Fondo">
+    <div class="CuadroTitulo">
+        <h1 class="Titulo">Libros IES Joan Coromines</h1>
+    </div>
+    <div class="Cuadrar">
+        <input type="text" name="nombre" size="45" maxlength="90" class="Busqueda" id="anyo"
+            onchange="CargarDatosEnTabla()" placeholder="Filtra por año:">
+    </div>
+    <!-- Tabla vacía donde se cargarán los productos -->
+    <div class="Alinear">
+        <table class="Tabla">
+            <thead class="Naranja">
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+    </div>
+    <tbody id="productosBody">
+        <!-- Aquí se insertarán las filas de la tabla -->
+    </tbody>
+    </table>
+    <div class="Cuadrar">
+        <label class="Patrocina">© Patrocina IES Joan Coromines Benicarló</label>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="cristian.css">
+
+<body>
+    <h1 class="titulo">Mi pagina</h1>
+    <button><a class="nav" href="home.html">Atras</a></button>
+    <!-- Tabla vacía donde se cargarán los productos -->
+    <table class="posicion_tabla">
+        <input type="text" id="buscador" size="45" maxlength="100">
+        <button onclick="CargarDatosEntabla()">Buscar</button>
+        <thead>
+            <tr>
+                <th>titulo</th>
+                <th>autor</th>
+                <th>año</th>
+                <th>precio</th>
+            </tr>
+        </thead>
+        <tbody id="productosBody">
+            <!-- Aquí se insertarán las filas de la tabla -->
+        </tbody>
+    </table>
+
+    <p>© Patrocina IES Joian Coromines Benicarlo</p>
+
+    <script src="cristian.js"> </script>
+</body>

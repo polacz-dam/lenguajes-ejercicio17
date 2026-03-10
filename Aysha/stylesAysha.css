@@ -1,0 +1,62 @@
+.CuadroTitulo {
+    background-color: #0d6efd;
+    ;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.Titulo {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+
+}
+
+.Naranja {
+    background-color: #ff7a45;
+    color: white;
+    height: 45px;
+    text-align: left;
+
+}
+
+.Tabla {
+    width: 700px;
+    height: 650px;
+    background-color: white;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td,
+th {
+    padding-left: 15px;
+}
+
+.Alinear {
+    margin-top: 50px;
+}
+
+.Patrocina {
+    color: #0d6efd;
+    ;
+    font-size: 15px;
+}
+
+.Cuadrar {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.Fondo {
+    background-color: rgb(255, 244, 234);
+}
+
+.Busqueda {
+    align-self: center;
+    margin-bottom: -5px;
+    height: 25px;
+    font-size: 17px;
+}

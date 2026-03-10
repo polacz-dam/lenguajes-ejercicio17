@@ -1,0 +1,50 @@
+.maraton{
+    background-color: black;
+    color: white;
+    height: 75px;
+    align-content: center;
+    text-align: center;
+}
+.table{
+    margin-top: 25px;
+    margin-left: 350px;
+    border-collapse: collapse;
+}
+.row{
+    font-size: 20px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.posicion{
+    width: 200px;
+    text-align: center;
+}
+.nombre{
+    width: 300px;
+    text-align: center;
+}
+.tiempo{
+    width: 200px;
+    text-align: center;
+}
+.patrocina{
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+}
+.tr{
+    height: 40px; background-color: whitesmoke;
+    text-align: center;
+}
+.busqueda{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    height: 25px;
+    font-size: 17px;
+}
+.alineacion{
+   text-align: center; 
+}

@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="sebas.css">
+<body class="fondo">
+    <div class="borde">
+        
+     <header>
+        <nav class="nav">
+            <a href="../home.html">Inicio</a>
+            <a href="Sebas.html">Sebas</a>
+            <!-- Añade aquí un enlace a tu página -->
+             
+        </nav>
+    </header>
+    </div>
+    
+    <div class="izquierda">
+    <input class="buscar" id="busqueda" onkeyup="CargarDatosEnTabla()"  placeholder="¿De que año es el libro que buscas?" >
+    <!-- Tabla vacía donde se cargarán los productos -->
+    </div>
+    <div class="centro">
+    <div class="tabla">
+    <table class="table" width="700px"  >
+        <thead  >
+            <tr class="cabecera" >
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Anio</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="Libros">
+            <!-- Aquí se insertarán las filas de la tabla -->
+        </tbody>
+    </table>
+    </div>
+    
+    </div>
+    <div class="post"><a class="textogris">@Patrocinado por Andres Tapasco</a></div>
+    <script src="Sebas.js"> </script>
+</body>

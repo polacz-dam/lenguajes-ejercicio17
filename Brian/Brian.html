@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="EstilosBrian.css" />
+</head>
+
+<body>
+    <h1 class="maraton">Biblioteca Brian</h1>
+    <div class="alineacion">
+        <input type=”text” name="nombre" size="45" maxlength="90" class="busqueda" id="anyo" onchange="CargarDatosEnTabla()" placeholder="Filtra por año:" />
+    </div>
+    <!-- Tabla vacía donde se cargarán los productos -->
+    <table class="table">
+        <thead>
+            <tr class="row">
+                <th class="posicion">Posicion</th>
+                <th class="nombre">Nombre</th>
+                <th class="tiempo">Tiempo</th>
+                <th class="tiempo">Precio</th>
+            </tr>
+        </thead>
+        <tbody class="tablita" id="productosBody">
+            <!-- Aquí se insertarán las filas de la tabla -->
+        </tbody>
+    </table>
+    <div class="patrocina">
+        <p>© Patrocina IES Joan Coromines Benicarló</p>
+    </div>
+</body>
+<footer>
+    <script type="text/javascript" src="Ejercicio17.js"></script>
+</footer>
+
+</html>
